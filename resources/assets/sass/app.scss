@@ -1,0 +1,33 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.Headline-color {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+.box-title{
+  margin-right: 50px;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.box-center{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
